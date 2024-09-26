@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.pexels.com/photos/28536834/pexels-photo-28536834/free-photo-of-london-bridge-silhouette-at-sunset.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+}
+ 
+
+
+h3{
+    margin-left: 10px;
+
+}
+
+
+.inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:white;
+    height: 250px;
+    width: 330px;
+    border-radius: 8px;
+}
+.but{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+
+}
+input{
+    width: 290px;
+    margin-left: 15px;
+    padding: 8px;
+    border: 1px solid black;
+}
+label{
+    margin-left: 10px;
+    margin-left: 15px;
+    color: rgb(129, 113, 113);
+
+}
+.btn{
+    background-color: black;
+    color: white;
+    border-radius:2px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 300px;
+    padding: 8px;
+}
